@@ -1,0 +1,50 @@
+{
+  "name": "ng-backspace",
+  "version": "1.0.1",
+  "homepage": "https://github.com/KimSunWook/ngBackspace",
+  "main": "ngBackspace.js",
+  "authors": [
+    "Kim Sun Wook <sunus7@naver.com>"
+  ],
+  "description": "Trigger an expression when the backspace key is pressed.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KimSunWook/ngBackspace.git"
+  },
+  "keywords": [
+    "ngBackspace",
+    "ng-backspace"
+  ],
+  "ignore": [
+    "**",
+    "*.json",
+    "webpack.config.js",
+    "*.md",
+    "CNAME"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": ">=1.2.0"
+  },
+  "devDependencies": {
+    "angular": "~1.5.8",
+    "angular-animate": "~1.5.8",
+    "angular-aria": "~1.5.8",
+    "angular-cookies": "~1.5.8",
+    "angular-messages": "~1.5.8",
+    "angular-resource": "~1.5.8",
+    "angular-route": "~1.5.8",
+    "angular-sanitize": "~1.5.8",
+    "angular-touch": "~1.5.8",
+    "angular-ui-router": "~0.3.1",
+    "angular-material": "^1.1.4",
+    "animate.css": "^3.5.2",
+    "ng-lodash": "^0.5.0",
+    "cssist": "*",
+    "animejs": "^2.2.0",
+    "granim": "^1.1.0"
+  },
+  "resolutions": {
+    "angular": "~1.5.8"
+  }
+}

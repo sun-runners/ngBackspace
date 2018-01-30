@@ -12,10 +12,10 @@ angular.module('app')
 		   states : {
 					"default-state": {
 						gradients: [
-							['#80D8FF', '#40C4FF'],
-							['#00B0FF', '#0091EA'],
-							['#0091EA', '#00B0FF'],
-							['#40C4FF', '#80D8FF']
+							['#F8BBD0', '#F48FB1'],
+							['#F06292', '#EC407A'],
+							['#EC407A', '#F06292'],
+							['#F48FB1', '#F8BBD0']
 						]
 					}
 		   }

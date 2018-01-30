@@ -43,8 +43,7 @@
     "cssist": "*",
     "animejs": "^2.2.0",
     "granim": "^1.1.0",
-    "reset.css": "^1.0.2",
-    "ng-backspace": "ngBackspace#*"
+    "reset.css": "^1.0.2"
   },
   "resolutions": {
     "angular": "~1.5.8"

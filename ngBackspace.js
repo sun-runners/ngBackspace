@@ -12,7 +12,7 @@
            else model = scope;
 
            // When Backspace key is pressed
-           if (event.which === 13) {
+           if (event.which === 8) {
              // $backspace 가 false 나 undefined 일때만 작동
              // ( 연속해서 true 로 멈춰있는 경우 방지 )
              if(!model.$backspace){

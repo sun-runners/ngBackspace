@@ -2,11 +2,6 @@
 
 angular.module('app')
 	.controller('DemoCtrl', function ($scope, $rootScope, $timeout) {
-		$scope.messages = [
-	    'Thank you for pressing the backspace key!1',
-	    'Thank you for pressing the backspace key!2',
-	    'Thank you for pressing the backspace key!3'
-	  ];
 		$scope.message_index = 0;
 
 		var granimInstance = new Granim({

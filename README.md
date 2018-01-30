@@ -9,11 +9,35 @@ DEMO
 -------
 https://kimsunwook.github.io/ngBackspace
 
+<br/>
+
 INSTALL
 -------
 
 ```
 bower install ng-backspace --save
+```
+
+<br/>
+
+Quick start
+-------
+Copy-paste the stylesheet <script> into your <body>.
+
+```
+<script src=".bower_components/ngBackspace/ngBackspace.js"></script>
+```
+or
+```
+<script src=".bower_components/ngBackspace/ngBackspace.min.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngBackspace/master/ngBackspace.js"></script>
+```
+or
+```
+<script src="https://raw.githubusercontent.com/KimSunWook/ngBackspace/master/ngBackspace.min.js"></script>
 ```
 
 <br/>

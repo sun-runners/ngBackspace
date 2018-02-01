@@ -1,7 +1,7 @@
 ngBackspace
 =======
 
-Trigger an expression when the backspace key is pressed.
+ngBackspace is an angularjs library that triggers an expression when the backspace key is pressed.
 
 <br/>
 

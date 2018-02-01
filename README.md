@@ -25,11 +25,11 @@ Quick start
 Copy-paste the stylesheet <script> into your <body>.
 
 ```
-<script src=".bower_components/ngBackspace/ngBackspace.js"></script>
+<script src=".bower_components/ng-backspace/ngBackspace.js"></script>
 ```
 or
 ```
-<script src=".bower_components/ngBackspace/ngBackspace.min.js"></script>
+<script src=".bower_components/ng-backspace/ngBackspace.min.js"></script>
 ```
 or
 ```

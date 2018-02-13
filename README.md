@@ -24,6 +24,8 @@ Quick start
 -------
 Copy-paste the ```<script>``` into your ```<body>```.
 
+<br/>
+ngBackspace.js
 ```
 <script src=".bower_components/ng-backspace/ngBackspace.js"></script>
 ```

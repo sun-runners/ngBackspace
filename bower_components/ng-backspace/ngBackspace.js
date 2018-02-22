@@ -20,7 +20,7 @@
                // Set $backspace true and execute ng-backspace
                scope.$apply(function() {
                  model.$backspace = true;
-                 model.$backspaceed = true;
+                 model.$backspaced = true;
                  scope.$eval(attrs.ngBackspace);
                });
 
@@ -70,7 +70,7 @@
 //                    // Set $backspace true and execute ng-backspace
 //                    _scope.$apply(function() {
 //                      _scope.$backspace = true;
-//                      _scope.$backspaceed = true;
+//                      _scope.$backspaced = true;
 //                      _scope.$eval(iAttrs.ngBackspace);
 //                    });
 //

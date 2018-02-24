@@ -2,7 +2,9 @@
   "name": "ng-backspace",
   "version": "1.0.2",
   "homepage": "https://github.com/KimSunWook/ngBackspace",
-  "main": "ngBackspace.js",
+  "main": [
+    "ngBackspace.js"
+  ],
   "authors": [
     "Kim Sun Wook <sunus7@naver.com>"
   ],

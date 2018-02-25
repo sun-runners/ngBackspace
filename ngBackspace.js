@@ -3,13 +3,30 @@
   .directive("ngBackspace", function ($rootScope, $timeout) {
 		return {
       link: function (scope, element, attrs) {
+
+        var getModel = function(){
+          // Set model
+          var model;
+          if(scope.$eval(attrs.ngBackspaceModel)){
+            model = scope.$eval(attrs.ngBackspaceModel);
+          }
+          else{
+            if(attrs.ngBackspaceModel){
+              scope[attrs.ngBackspaceModel] = {};
+              model = scope[attrs.ngBackspaceModel];
+            }
+            else{
+              model = scope;
+            }
+          }
+          return model;
+        };
+
         // Listen to keypress event
          var timeout_backspace;
          angular.element(element).bind("keydown keypress", function(event) {
            // Set model
-           var model
-           if(scope.$eval(attrs.ngBackspaceModel)) model = scope.$eval(attrs.ngBackspaceModel);
-           else model = scope;
+           var model = getModel();
 
            // When Backspace key is pressed
            if (event.which === 8) {

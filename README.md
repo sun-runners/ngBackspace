@@ -37,11 +37,11 @@ or
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngBackspace/v1.0.2/ngBackspace.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngBackspace/v1.1.0/ngBackspace.js"></script>
 ```
 or
 ```
-<script src="https://cdn.rawgit.com/KimSunWook/ngBackspace/v1.0.2/ngBackspace.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngBackspace/v1.1.0/ngBackspace.min.js"></script>
 ```
 
 <br/>

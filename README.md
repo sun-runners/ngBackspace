@@ -33,15 +33,7 @@ Copy-paste the ```<script>``` into your ```<body>```.
 ```
 or
 ```
-<script src=".bower_components/ng-backspace/ngBackspace.min.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngBackspace/v1.1.0/ngBackspace.js"></script>
-```
-or
-```
-<script src="https://cdn.rawgit.com/KimSunWook/ngBackspace/v1.1.0/ngBackspace.min.js"></script>
+<script src="https://cdn.rawgit.com/KimSunWook/ngBackspace/v1.1.2/ngBackspace.js"></script>
 ```
 
 <br/>
@@ -60,12 +52,26 @@ angular.module('myApp', [
 
 ```
 <input
-  ng-backspace="message = 'backspace pressed'" // Invoked when you press the Backspace key
-  ng-backspace-model="model" // If you do not put object, $backspace and $backspaced values ​​are stored in scope.
-  ng-backspace-duration="1000" // The value of $ backspace lasts true and the default value is 100 (ms).
+  <!-- Invoked when you press the BACKSPACE key -->
+  ng-backspace="message = 'BACKSPACE is pressed.'"
+
+  <!-- Called after duration (ms) after pressing the BACKSPACE key. -->
+  ng-backspace-after="message = 'BACKSPACE was pressed 1 second ago.'"
+
+  <!-- If you do not put object, $backspace and $backspaceed values ​​are stored in scope. -->
+  ng-backspace-model="model"
+
+  <!-- The value of $backspace lasts true and the default value is 700 (ms). -->
+  ng-backspace-duration="1000"
+
   ng-class="[
-    {'backspace_classes':model.$backspace}, // The value of $backspace becomes true on click and turns false after duration (ms).
-    {'backspaced_classes':model.$backspaced} // The value of $backspaced is true when clicked and does not change.
+
+    <!-- The value of $backspace becomes true on click and turns false after duration (ms). -->
+    {'backspace_classes':model.$backspace},
+
+    <!-- The value of $backspaceed is true when clicked and does not change. -->
+    {'backspaceed_classes':model.$backspaceed}
+
   ]">
 ```
 

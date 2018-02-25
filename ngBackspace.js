@@ -1,6 +1,6 @@
 (function(angular) {
   angular.module('ngBackspace', ['ng'])
-  .directive("ngBackspace", function ($rootScope, $timeout) {
+  .directive("ngBackspace", ['$rootScope', '$timeout' function ($rootScope, $timeout) {
 		return {
       link: function (scope, element, attrs) {
 
@@ -43,9 +43,10 @@
 
                // Set $backspace false after duration
                var duration = Number(attrs.ngBackspaceDuration);
-               if(!(duration>=0)) duration = 100;
+               if(!(duration>=0)) duration = 700;
                timeout_backspace = $timeout(function(){
                  model.$backspace = false;
+                 scope.$eval(attrs.ngBackspaceAfter);
                }, duration);
              }
              event.preventDefault();
@@ -56,4 +57,4 @@
 			restrict:"EA"
 		};
 	});
-})(angular);
+}])(angular);
